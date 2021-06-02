@@ -23,10 +23,11 @@ function FrontPage() {
        title={article.title}
        published_date={article.published_date}
        byLine={article.byLine}
+       data={article}
      />
    )
  })
- 
+
 
   return (
     <>
