@@ -1,20 +1,41 @@
 import React, { useState, useEffect } from 'react';
 import './FrontPage.css';
 import { getNews } from '../../apiCalls.js';
+import NewsCard from '../NewsCard/NewsCard.js'
 
 function FrontPage() {
-  const [articleList, setArticleLIst] = useState([]);
-  const [error, setError] = useState(``);
+  const [articlesList, setArticlesLIst] = useState([]);
+  const [typeOfNews, setTypeOfNews] = useState('home')
+  const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    getNews('home')
-    .then(data => setArticleLIst(data.results))
-  }, [])
+    getNews(typeOfNews)
+    .then(data => setArticlesLIst(data.results))
+ }, [typeOfNews])
+
+ const buildNewsCards = articlesList.map((article, i) => {
+   return (
+     <NewsCard
+       key={i}
+       id={i}
+       title={article.title}
+       published_date={article.published_date}
+       byLine={article.byLine}
+     />
+   )
+ })
 
   return (
-    <p>Test1</p>
+    <>
+      <h1>Will be a header</h1>
+      <section>
+        {buildNewsCards}
+      </section>
+    </>
   )
 }
 
 export default FrontPage;
+
+// <button onClick={(e) => setTypeOfNews('food')}>test Api</button>
