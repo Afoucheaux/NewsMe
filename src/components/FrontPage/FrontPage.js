@@ -28,7 +28,6 @@ function FrontPage() {
    )
  })
 
-
   return (
     <>
       <Header setTypeOfNews={setTypeOfNews}/>
@@ -36,9 +35,8 @@ function FrontPage() {
         {buildNewsCards}
       </section>
     </>
+
   )
 }
 
 export default FrontPage;
-
-// <button onClick={(e) => setTypeOfNews('food')}>test Api</button>
