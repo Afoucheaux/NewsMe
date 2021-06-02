@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './FrontPage.css';
 import { getNews } from '../../apiCalls.js';
 import NewsCard from '../NewsCard/NewsCard.js'
+import Header from '../Header/Header.js'
 
 function FrontPage() {
   const [articlesList, setArticlesLIst] = useState([]);
@@ -28,7 +29,7 @@ function FrontPage() {
 
   return (
     <>
-      <h1>Will be a header</h1>
+      <Header setTypeOfNews={setTypeOfNews}/>
       <section>
         {buildNewsCards}
       </section>
