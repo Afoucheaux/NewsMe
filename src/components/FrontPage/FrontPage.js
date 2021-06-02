@@ -22,7 +22,7 @@ function FrontPage() {
        id={i}
        title={article.title}
        published_date={article.published_date}
-       byLine={article.byLine}
+       byLine={article.byline}
        data={article}
      />
    )
