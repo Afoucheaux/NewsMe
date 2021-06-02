@@ -8,7 +8,7 @@ function Article() {
 
   return (
     <>
-      <Header />
+      <Header hiddenOne={'hidden'} hiddenTwo={''}/>
       <section className='detailLayout' data-cy='detailLayout'>
         <h2 className='DetailTitle' data-cy='DetailTitle'>{location.state.data.title}</h2>
         <p>{location.state.data.abstract}</p>

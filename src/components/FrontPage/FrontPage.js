@@ -30,7 +30,7 @@ function FrontPage() {
 
   return (
     <>
-      <Header setTypeOfNews={setTypeOfNews}/>
+    <Header setTypeOfNews={setTypeOfNews} hiddenOne={''} hiddenTwo={'hidden'}/>
       <section>
         {buildNewsCards}
       </section>
