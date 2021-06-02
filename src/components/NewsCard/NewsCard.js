@@ -1,6 +1,6 @@
 import React from 'react';
 import './NewsCard.css';
-import { useLocation, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function NewsCard({ title,  published_date, byLine, data }) {
 

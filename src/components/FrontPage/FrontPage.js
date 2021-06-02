@@ -5,15 +5,22 @@ import NewsCard from '../NewsCard/NewsCard.js';
 import Header from '../Header/Header.js';
 
 function FrontPage() {
-  const [articlesList, setArticlesLIst] = useState([]);
+  const [articlesList, setArticlesList] = useState([]);
   const [typeOfNews, setTypeOfNews] = useState('home');
-  const [error, setError] = useState('');
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState('');
+  const [error, setError] = useState('')
 
   useEffect(() => {
+    setLoading('Loading ...')
     getNews(typeOfNews)
-    .then(data => setArticlesLIst(data.results))
+    .then(data => handleNewsCall(data.results))
+    .catch(err => setError(err))
  }, [typeOfNews])
+
+ const handleNewsCall = (data) => {
+    setArticlesList(data)
+    setLoading('')
+ }
 
  const buildNewsCards = articlesList.map((article, i) => {
    return (
@@ -31,6 +38,8 @@ function FrontPage() {
   return (
     <>
     <Header setTypeOfNews={setTypeOfNews} hiddenOne={''} hiddenTwo={'hidden'}/>
+      {error && <p className='errorMessage'>{error}</p>}
+      {loading && <p className='loadingMessage'>{loading}</p>}
       <section>
         {buildNewsCards}
       </section>
