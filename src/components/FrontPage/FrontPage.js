@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './FrontPage.css';
 import { getNews } from '../../apiCalls.js';
-import NewsCard from '../NewsCard/NewsCard.js'
-import Header from '../Header/Header.js'
+import NewsCard from '../NewsCard/NewsCard.js';
+import Header from '../Header/Header.js';
 
 function FrontPage() {
   const [articlesList, setArticlesLIst] = useState([]);
-  const [typeOfNews, setTypeOfNews] = useState('home')
+  const [typeOfNews, setTypeOfNews] = useState('home');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
@@ -22,7 +22,7 @@ function FrontPage() {
        id={i}
        title={article.title}
        published_date={article.published_date}
-       byLine={article.byLine}
+       byLine={article.byline}
        data={article}
      />
    )
@@ -30,7 +30,7 @@ function FrontPage() {
 
   return (
     <>
-      <Header setTypeOfNews={setTypeOfNews}/>
+    <Header setTypeOfNews={setTypeOfNews} hiddenOne={''} hiddenTwo={'hidden'}/>
       <section>
         {buildNewsCards}
       </section>
