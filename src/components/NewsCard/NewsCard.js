@@ -1,5 +1,6 @@
 import React from 'react';
 import './NewsCard.css';
+// import { useLocation, Link } from 'react-router-dom';
 
 function NewsCard({ title,  published_date, byLine }) {
 
@@ -13,3 +14,4 @@ function NewsCard({ title,  published_date, byLine }) {
 }
 
 export default NewsCard;
+// <Link className='get-results' data-cy='get-results' to={{pathname:`/user/${name}`, state:{gameInfo, allRounds}}}>submit</Link>
