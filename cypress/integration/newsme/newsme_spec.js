@@ -1,4 +1,4 @@
-context(newsme, () => {
+context('newsme', () => {
 
   it('Should load into a page and see a header and a list of articles that you can filter', () => {
     cy.visit('http://localhost:3000')
