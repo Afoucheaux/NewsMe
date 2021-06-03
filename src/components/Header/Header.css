@@ -29,3 +29,24 @@ button {
 .hidden{
   display: none
 }
+
+@media screen and (max-width: 500px) {
+
+  .headerLayout {
+    height: 22vh;
+  }
+
+  .buttonLayout {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: .5vh;
+
+  }
+
+  button {
+    background-color: tan;
+    width: 22vw;
+    margin: .25em;
+  }
+
+}
