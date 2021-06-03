@@ -5,7 +5,7 @@ context('newsme', () => {
     .get('[data-cy=headerLayout]').should('exist')
     .get('[data-cy=title]').contains('NEWS ME')
     .get('[data-cy=newsCard]').should('exist')
-    .get('[data-cy=cardsListLayout]').click()
+    .get('[data-cy=artButton]').click()
   })
 
   it('Should be able to link to more details about the article and then return to front page', () => {
