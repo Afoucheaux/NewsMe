@@ -40,7 +40,7 @@ function FrontPage() {
     <Header setTypeOfNews={setTypeOfNews} hiddenOne={''} hiddenTwo={'hidden'}/>
       {error && <p className='errorMessage'>{error}</p>}
       {loading && <p className='loadingMessage'>{loading}</p>}
-      <section>
+      <section className='cardsListLayout'>
         {buildNewsCards}
       </section>
     </>
