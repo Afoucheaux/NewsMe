@@ -12,3 +12,17 @@
   background-color: lightgrey;
   text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+
+  .newsCard {
+    width: 90vw;
+    height: 28vh;
+  }
+
+  .cardstyling {
+    width: 90vw;
+    height: 28vh;
+  }
+  
+}

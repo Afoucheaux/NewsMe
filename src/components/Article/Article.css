@@ -12,3 +12,16 @@
   background-color: lightgrey;
   text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+
+  .detailLayout {
+    min-height: 80vh;
+  }
+
+  .detailStyling {
+    width: 90vw;
+    height: 60vh;
+  }
+
+}
