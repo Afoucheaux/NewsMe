@@ -1,0 +1,14 @@
+.detailLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tan;
+  min-height: 88vh;
+}
+
+.detailStyling {
+  width: 80vw;
+  height: 50vh;
+  background-color: lightgrey;
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+.newsCard {
+  width: 80vw;
+  height: 20vh;
+  color: black;
+  text-decoration: none;
+  margin: 1em;
+}
+
+.cardstyling {
+  width: 80vw;
+  height: 20vh;
+  background-color: lightgrey;
+  text-align: center;
+}
