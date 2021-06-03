@@ -1,66 +1,65 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Contact  
 
-## Available Scripts
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://github.com/Afoucheaux) [![GitHub](https://img.shields.io/badge/GitHub-black.svg?&style=flat-square&logo=github&logoColor=white)](https://www.linkedin.com/in/aaron-foucheaux-891626207/) - Aaron Foucheaux
 
-In the project directory, you can run:
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [About the Project](#about-the-project)
+- [Built With](#built-with)
+- [Set-up Instructions](#set-up-instructions)
+- [Learning Goals](#learning-goals)
+- [Challenges](#challenges)
+- [Wins](#wins)
+- [Contributors](#contributors)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This was a 6 hr build to demonstrate knowledge. This project utilizes Create React App to build a news application which allows users to view a list of articles, and filter by category, then get more details to the article. All work on this project has stopped on Jun 3 2021.
 
-### `npm run build`
+- Architect an application structure using functional components with hooks
+- Show competency with React fundamentals
+- Basic testing of React components using Cypress testing
+- Create a multi-page UX using Router
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Built With:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React
+- React Router
+- Javascript
+- HTML5
+- CSS
+- Cypress
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Set-up Instructions
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Additionally you can clone down the repo [here](https://github.com/Afoucheaux/NewsMe)
+2. Move into the NewsMe directory in your terminal.
+3. To see the code itself locally, run `<name of text editor> .`
+- Run `npm install`
+- Run `npm start`
+- visit http://localhost:3000/
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Learning Goals
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Show understanding of React fundamentals including components, props, state, and JSX
+- Basic testing using Cypress
+- Show understanding of React Router
+- Ability to deliver MVP in timed setting
 
-## Learn More
+## Challenges
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Main challenge was around work flow and timing.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Wins
 
-### Code Splitting
+1. Better understanding of timing and workflow of a timed code challenge.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Contributers
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* [Aaron Foucheaux](https://github.com/alexthompson207) - Application Co-creator
