@@ -2,15 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: tan;
   min-height: 88vh;
 }
 
 .detailStyling {
   width: 80vw;
   height: 50vh;
-  background-color: lightgrey;
-  text-align: center;
+  background-color: tan;
+  opacity: .8;
+  box-shadow: 5px 5px 7px 2px black;
+  border-radius: 16px;
 }
 
 @media screen and (max-width: 500px) {

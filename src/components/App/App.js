@@ -8,10 +8,12 @@ import Article from '../Article/Article.js';
 function App() {
 
   return (
-    <Switch classname='app'>
-      <Route exact path='/article' component={ Article }/>
-      <Route path='/' component={ FrontPage }/>
-    </Switch>
+    <main className='mainBackground'>
+      <Switch classname='app'>
+        <Route exact path='/article' component={ Article }/>
+        <Route path='/' component={ FrontPage }/>
+      </Switch>
+    </main>  
   );
 }
 
