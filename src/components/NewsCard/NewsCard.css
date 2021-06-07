@@ -26,12 +26,12 @@
 
 .byLine {
   opacity: 1;
-  padding: .5em;
+  padding: .5em .25em .25em 2em;
 }
 
 .date {
   opacity: 1;
-  padding: .5em;
+    padding: .5em .25em .25em 2em;
 }
 
 

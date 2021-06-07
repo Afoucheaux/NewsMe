@@ -10,7 +10,7 @@ function NewsCard({ title,  published_date, byLine, data }) {
       <article className='cardstyling'>
         <h2 className='articleTitle' data-cy='articleTitle'>{title}</h2>
         <p className='byLine' data-cy='byLine'>{byLine}</p>
-        <p className='date' data-cy='date'>{published_date}</p>
+        <p className='date' data-cy='date'>Published on {published_date}</p>
       </article>
     </Link>
   )

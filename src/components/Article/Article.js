@@ -11,12 +11,12 @@ function Article() {
       <Header hiddenOne={'hidden'} hiddenTwo={''}/>
       <section className='detailLayout' data-cy='detailLayout'>
         <article className='detailStyling'>
-          <h2 className='DetailTitle' data-cy='DetailTitle'>{location.state.data.title}</h2>
-          <p>{location.state.data.abstract}</p>
-          <p>{location.state.data.published_date}</p>
-          <p>{location.state.data.byline}</p>
-          <p>{location.state.data.subsection}</p>
-          <a href={location.state.data.url}>full article</a>
+          <h2 className='detailTitle' data-cy='DetailTitle'>{location.state.data.title}</h2>
+          <p className='details'>{location.state.data.abstract}</p>
+          <p className='details'>{location.state.data.published_date}</p>
+          <p className='details'>{location.state.data.byline}</p>
+          <p className='details'>{location.state.data.subsection}</p>
+          <a className='details' href={location.state.data.url}>full article</a>
         </article>
       </section>
     </>
