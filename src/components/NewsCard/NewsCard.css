@@ -24,16 +24,10 @@
   text-shadow: 1px 1px grey;
 }
 
-.byLine {
+.info{
   opacity: 1;
   padding: .5em .25em .25em 2em;
 }
-
-.date {
-  opacity: 1;
-    padding: .5em .25em .25em 2em;
-}
-
 
 @media screen and (max-width: 500px) {
 
@@ -45,6 +39,15 @@
   .cardstyling {
     width: 90vw;
     height: 28vh;
+  }
+
+  .articleTitle {
+    font-size: 1em;
+  }
+
+  .info {
+    opacity: 1;
+    padding: .5em 0em 0em 1em;
   }
 
 }
